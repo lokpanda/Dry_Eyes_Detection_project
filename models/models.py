@@ -10,7 +10,7 @@ from sklearn.model_selection import GridSearchCV, cross_val_score, train_test_sp
 from sklearn.tree import DecisionTreeClassifier
 
 
-dataset_folder = r"C:\Users\Lenovo\Desktop\project-1\datasets"
+dataset_folder = r"C:\Users\Lenovo\Desktop\Dry_eyes_detection_project\datasets"
 dataset_file = "preprocessed_dataset.csv"
 dataset_path = os.path.join(dataset_folder, dataset_file)
 
